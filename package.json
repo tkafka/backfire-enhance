@@ -1,0 +1,15 @@
+{
+    "name"       : "client-backfire",
+    "version"    : "0.0.0",
+    "description": "Npm package to use backfire thanks to browserify",
+    "repository" : "https://github.com/cloud-walker/client-backfire.git",
+    "license"    : "MIT",
+    "main"       : "index",
+
+    "dependencies": {
+        "jquery-untouched": "latest",
+        "underscore"      : "latest",
+        "backbone"        : "latest",
+        "client-firebase" : "latest"
+    }
+}
