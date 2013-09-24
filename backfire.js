@@ -4,8 +4,9 @@
 
 (function() {
 
-var _ = this._;
-var Backbone = this.Backbone;
+var _        = require('underscore');
+var Backbone = require('backbone');
+var Firebase = require('client-firebase');
 
 Backbone.Firebase = function(ref) {
   this._fbref = ref;
@@ -380,4 +381,5 @@ Backbone.Firebase.Model = Backbone.Model.extend({
 
 });
 
+module.exports = Backbone.Firebase;
 })();
