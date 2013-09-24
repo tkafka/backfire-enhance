@@ -1,5 +1,5 @@
-var $        = require('jquery-untouched');
-var _        = require('underscore');
-var Backbone = require('backbone');
-var Firebase = require('client-firebase');
-// var Back
+var Backbone      = require('backbone');
+var Firebase      = require('client-firebase');
+Backbone.Firebase = require('./lib/backfire.js');
+
+module.exports = Backbone.Firebase;

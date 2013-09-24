@@ -7,8 +7,6 @@
     "main"       : "index",
 
     "dependencies": {
-        "jquery-untouched": "latest",
-        "underscore"      : "latest",
         "backbone"        : "latest",
         "client-firebase" : "latest"
     }
