@@ -2,7 +2,7 @@
  * Backbone Firebase Adapter.
  */
 
-exports.enhanceBackbone(Backbone, Firebase, _) = function {
+exports.enhanceBackbone = function(Backbone, Firebase, _) {
 
 Backbone.Firebase = function(ref) {
   this._fbref = ref;
