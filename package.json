@@ -2,7 +2,7 @@
     "name"       : "backfire-enhance",
     "version"    : "0.0.1",
     "description": "Npm package to enhance and instance of Backbone with Backfire",
-    "repository" : "https://github.com/tkafka/client-backfire.git",
+    "repository" : "https://github.com/tkafka/backfire-enhance.git",
     "license"    : "MIT",
     "main"       : "index",
 
