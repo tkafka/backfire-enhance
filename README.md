@@ -1,12 +1,11 @@
-client-backfire
-===============
+backfire-enhance
+================
 
-Npm package to use backfire thanks to browserify!
+Npm package to use backfire with existing Backbone!
 
 ### How it works
 ```
-var Backfire = require('client-backfire');
-var $        = Backfire.$;
-var _        = Backfire._;
-var Backbone = Backfire.Backbone;
+var BackfireEnhance = require('backfire-enhance');
+
+BackfireEnhance.enhanceBackbone(existingBackboneInstance, existingFirebaseInstance, _)
 ```
